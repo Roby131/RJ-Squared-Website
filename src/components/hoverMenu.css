@@ -1,0 +1,46 @@
+.hoverMenu {
+    position: fixed;
+    right: 0%;
+    top: 40%;
+    margin-right: 20px;
+    height: 0;
+    color: black;
+}
+
+.hoverItems {
+    font-size: 1rem;
+    line-height:3rem;
+    width: fit-content;
+    margin-left: auto;
+    text-align: right;
+    transition: transform 0.5s ease;
+}
+
+.hoverItemsActive {
+    transform: translateX(200px);
+}
+
+.item {
+    transition: transform 0.2s ease;
+    transform-origin: right;
+}
+
+.item::after {
+    font-size: 1rem;
+    content: " \25CB";
+}
+
+.onItem {
+    transition: transform 0.2s ease;
+    transform-origin: right;
+}
+
+.onItem::after {
+    font-size: 1rem;
+    content: " \25CF";
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

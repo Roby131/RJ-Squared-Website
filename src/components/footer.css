@@ -1,0 +1,18 @@
+.main {
+    font-size: 14pt;
+    color: white;
+    height: 5rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: darkslategray;
+}
+
+.a {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.a:hover {
+    color: skyblue;
+}

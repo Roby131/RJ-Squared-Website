@@ -1,0 +1,93 @@
+.servicesTitle {
+    height: 30vmin;
+    margin: 20px;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../services.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 10%;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 400px));
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    margin: 2%;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 15pt;
+    word-wrap: normal;
+    font-size: 1.2rem;
+}
+
+.aboutText:first-letter {
+    float:Left;
+    font-size: 6rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.2em 0;
+    
+}
+
+.photo {
+    flex: 0 0 30%;
+    height: 70%;
+    width: 350px;
+    margin: 0;
+    object-fit:scale-down;
+}
+@media (max-width: 700px) {
+    .about {
+        flex-direction: column;
+        font-size: 13pt;
+    }
+    /* .aboutText { */
+        /* margin: 0; */
+    /* } */
+    .photo {
+        margin-bottom: 20px;
+    }
+}
+
+ul { 
+    text-align: center;
+}
+
+.list {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.listTitle {
+  style: bold;
+  font-family: Georgia;
+}
+
+.listDescription {
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+.listItem {
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 2px;
+  border-width: 1px;
+  width: 90%;
+}

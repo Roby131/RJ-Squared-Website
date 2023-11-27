@@ -1,0 +1,36 @@
+.welcome {
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../background.png');
+    background-position-y: 28%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-color: #acc2c0;
+}
+
+.welcome > * + * {
+    margin-top: 20px;
+}
+
+.photo {
+    height: 100%;
+    margin-left: 10%;
+}
+
+.subtitle {
+  font-size: calc(2pt + 4vmin);
+  color: white;
+}
+
+h1 {
+    text-align: center;
+    /* font-family: Georgia; */
+    font-size: calc(20pt + 4vmin);
+    margin: 0 auto;
+    color: white;
+    max-width: 80%;
+}
+
