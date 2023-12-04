@@ -30,7 +30,7 @@ export default function About() {
           who have emigrated  (whether recently like myself, or many
           generations back, like most) with the various challenges
           that arise when one feels disconnected and misunderstood by our
-          own families and community.
+          own families and community
         </p>
       </div>
         <h2>
