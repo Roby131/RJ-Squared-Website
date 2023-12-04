@@ -12,4 +12,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### `npm run deploy`
 
-Runs build and also deploys using gh-pages
+Runs build and also deploys using gh-pages.
