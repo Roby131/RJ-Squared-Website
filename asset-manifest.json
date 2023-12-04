@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34779cfc.chunk.css",
+    "main.js": "/static/js/main.1bbbf0c1.chunk.js",
+    "main.js.map": "/static/js/main.1bbbf0c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d3de0dad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d3de0dad.js.map",
+    "static/js/2.1cd32228.chunk.js": "/static/js/2.1cd32228.chunk.js",
+    "static/js/2.1cd32228.chunk.js.map": "/static/js/2.1cd32228.chunk.js.map",
+    "static/js/3.ae86fd44.chunk.js": "/static/js/3.ae86fd44.chunk.js",
+    "static/js/3.ae86fd44.chunk.js.map": "/static/js/3.ae86fd44.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.34779cfc.chunk.css.map": "/static/css/main.34779cfc.chunk.css.map",
+    "static/js/2.1cd32228.chunk.js.LICENSE.txt": "/static/js/2.1cd32228.chunk.js.LICENSE.txt",
+    "static/media/about.module.css": "/static/media/about3.8db00acc.jpg",
+    "static/media/welcome.css": "/static/media/background.f1532880.png",
+    "static/media/contact.css": "/static/media/contact.9f7865b2.jpg",
+    "static/media/myong.ada0709f.png": "/static/media/myong.ada0709f.png",
+    "static/media/scheduling.module.css": "/static/media/scheduling.fccc4b00.png",
+    "static/media/services.module.css": "/static/media/services.a9b20fa0.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3de0dad.js",
+    "static/js/2.1cd32228.chunk.js",
+    "static/css/main.34779cfc.chunk.css",
+    "static/js/main.1bbbf0c1.chunk.js"
+  ]
+}
